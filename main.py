@@ -76,5 +76,5 @@ def linebot(request):
 
     except Exception as e:
         detail = e.args[0]
-        print(detail)
+        LOG(detail)
     return 'OK'
